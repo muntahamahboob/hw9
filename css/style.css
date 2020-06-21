@@ -1,0 +1,130 @@
+body{
+	margin:0;
+	padding:0;
+}
+/*header start*/
+
+
+header{
+	padding: 10px 0;
+	background-color:#121B2A;
+
+}
+.wapper {
+	overflow: hidden;
+	margin:0 auto;
+	width: 80%;
+	
+}
+
+.logo {
+	width:22%;
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+
+}
+
+.menu {
+	margin-top: 30px;
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	    float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size:13px;
+	color: white;
+	text-transform: uppercase;
+	    text-decoration: none;
+    	padding: 24.25px;
+   	 	display: inline-block;
+   	 	transition: .3s;
+}
+
+
+.menu ul li a:hover{
+	color:#0078BD;
+}
+
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+
+
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.b_content{
+	width: 50%;
+	margin-top:268px;
+	margin-bottom:62px;
+}
+.b_content h1{
+	font-family:sans-serif; 
+	font-weight:400;
+	font-size:33px; 
+	color:white;
+	text-transform:capitalize;
+	margin:0;
+}
+.b_content h2{
+	font-family:sans-serif; 
+	font-weight:600;
+	font-size:41px;
+	color:#0078BD;
+	text-transform:capitalize; 
+	margin:0;
+}
+
+.b_content p{
+	font-family:sans-serif; 
+	color: white;
+	margin-top: 38px;
+	margin-bottom: 1px;
+	line-height:25px;
+	
+	
+}
+.b_content button{
+
+	width: 220px;
+	height: 54px;
+	margin-top: 20px;
+	font-family:sans-serif; 
+	font-weight:600;
+	font-size:20px;
+	color:#000000;
+	text-transform:uppercase;
+	border-radius: 3px;
+	border: 0;
+	background-color: white;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.b_content button:hover{
+	color: #0078BD;
+
+}
+.b_content button:focus{
+	outline: 0;
+}
+/*banner end*/
